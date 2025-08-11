@@ -48,7 +48,7 @@ MIT License
 
 6. **Migrasi Database**
    ```bash
-   php artisan migrate
+   php artisan migrate / php artisan migrate:fresh --seed
 
 7. **Generate JWT Secret**
    ```bash
