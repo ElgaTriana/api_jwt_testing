@@ -88,3 +88,11 @@ MIT License
    ```bash
    Authorization: Bearer <token>
 
+5. **Get Diagnosa**
+   **GET /api/diagnosas**
+   ```bash
+   Authorization: Bearer <token>
+
+<img style="text-align: center" width="640" height="281" alt="image" src="https://github.com/user-attachments/assets/16cf8563-e736-4af3-a326-ec0bc0a773e5" />
+
+
