@@ -46,6 +46,10 @@ MIT License
    DB_USERNAME=root
    DB_PASSWORD=
 
+   Ganti :
+   FILESYSTEM_DISK=local => FILESYSTEM_DISK=public
+   Agar bisa langsung di akses
+
 6. **Migrasi Database**
    ```bash
    php artisan migrate / php artisan migrate:fresh --seed
@@ -54,7 +58,11 @@ MIT License
    ```bash
    php artisan jwt:secret
 
-8. **Jalankan Server**
+8. **Jalankan Storage Link**
+   ```bash
+   php artisan storage:link
+
+9. **Jalankan Server**
    ```bash
    php artisan serve
 
